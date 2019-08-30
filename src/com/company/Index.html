@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Hans Andersson">
+    <meta name="description" content="Beskrivning av sidan">
+    <meta name="keywords" content="Fiske, gädda, abborre ">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">Ett</a>
+            </li>
+            <li><a href="#">Två</a></li>
+            <li><a href="#">Tre</a></li>
+            <li><a href="#">Fyra</a></li>
+        </ul>
+    </nav>
+</header>
+<div>
+    <h1>Öppettider</h1>
+    <table>
+        <caption>Öppettider</caption>
+        <thead>
+        <tr>
+            <th>Dag</th>
+            <th colspan=2>Tid</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Mån-fre</td>
+            <td>09-16</td>
+            <td>...</td>
+        </tr>
+        <tr>
+            <td>Lör</td>
+            <td>09-12</td>
+            <td>...</td>
+        </tr>
+        </tbody>
+
+    </table>
+</div>
+<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/git-logo.svg/1280px-git-logo.svg.png" alt="Bild på Git-logotypen"></div>
+<div>
+    <form action="index.html" method="POST">
+        <label for="age">Ålder</label>
+        <input type="number" name="age">
+        <br>
+        ​
+
+        <label for="ageGroup">Åldersgrupp</label>
+        <select name = "ageGroup">
+            <option value="18-30">18-30</option>
+            <option value="31-55">31-55</option>
+            <option value="56-80">56-80</option>
+        </select>
+        <br>
+        <label for="drivingLicense">Körkort</label>
+        A <input type="checkbox" name="drivingLicense" value="A">
+        B <input type="checkbox" name="drivingLicense" value="B">
+        C <input type="checkbox" name="drivingLicense" value="C">
+        CE <input type="checkbox" name="drivingLicense" value="D">
+        <br>
+        <label for="password">Lösenord</label>
+        <input type="password" name="password">
+        <br>
+        <label for="country">Senast besökta EU-land (förutom Sverige)</label>
+        <input type="text" name="country" list="countries">
+        <datalist id="countries">
+            <option value="England"></option>
+            <option value="Tyskland"></option>
+            <option value="Italien"></option>
+        </datalist>
+        <br>
+        <input type="tel" name="telnr" >					Telefonnummer
+        Sten, sax eller påse?
+        <label for="weapon">Sten, sax eller påse?</label>
+        Sten <input type="checkbox" name="drivingLicense" value="sten">
+        Sax <input type="checkbox" name="drivingLicense" value="sax">
+        Påse <input type="checkbox" name="drivingLicense" value="paper">
+        ​
+        <button>Sten</button>
+        <button>Sax</button>
+        <button>Påse</button>
+    </form>
+
+    <section>
+        <article><h2>Valfri text</h2>
+            <p>eros in cursus turpis massa tincidunt dui ut ornare lectus sit amet est placerat in egestas erat <em>imperdiet sed euismod nisi porta lorem mollis aliquam</em> ut porttitor leo a diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget felis eget nunc lobortis mattis aliquam faucibus <strong>purus in massa tempor nec feugiat nisl pretium</strong> fusce id velit ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae <span>purus</span> faucibus ornare suspendisse sed nisi lacus sed viverra</p>
+        </article>
+        <article><h1>Annan text</h1>
+            <p>eros in cursus turpis massa tincidunt dui ut ornare lectus sit amet est placerat in egestas erat ut porttitor leo a diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus <em>vitae aliquet nec ullamcorper sit amet</em> risus nullam eget felis eget nunc lobortis mattis aliquam faucibus <strong>purus in massa tempor nec feugiat nisl pretium</strong> fusce id velit ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae <span>purus</span> faucibus ornare suspendisse sed nisi lacus sed viverra</p>
+        </article>
+        <article><h1>En tredje text</h1>
+            <p>eros in cursus turpis massa tincidunt dui ut ornare lectus sit amet est placerat in egestas erat <em>imperdiet sed euismod nisi porta lorem mollis aliquam</em> ut porttitor leo a diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget felis eget nunc lobortis mattis aliquam faucibus <strong>purus in massa tempor nec feugiat nisl pretium</strong> fusce id velit ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae <span>purus</span> faucibus ornare suspendisse sed nisi lacus sed viverra....</p></article>
+    </section>
+</div>
+<footer>
+    ​
+    ​
+    <address>
+        Ebbe Lieberathsgatan 17
+        <a href="tel:+46731998877">+46731998877</a>
+        &#9993;
+        <a href="mailto:info@iths.se">info@iths.se</a>
+    </address>
+    ​
+</footer>
+</body>
+</html>
