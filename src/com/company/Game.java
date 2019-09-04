@@ -17,8 +17,9 @@ public class Game {
 //        System.out.println("Player 1 set a number:");
 //        String string=sc.nextLine();
 //        int player1=Integer.parseInt(string);
-        int player1=random.nextInt(100);
-       // System.out.println(player1);
+ //       int player1=random.nextInt(100);
+          int player1=(int)(Math.random()*100);
+          System.out.println(player1);
         int i=10;
         while(i>-1) {
             if (i == -1) {
