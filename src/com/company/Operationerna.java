@@ -103,7 +103,7 @@ public class Operationerna {
         return c;
     }
 
-    public boolean primtal(int a) {
+    public static boolean primtal(int a) {
         boolean c;
         if (a==1||a<=0){
             return false;
