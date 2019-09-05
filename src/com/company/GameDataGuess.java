@@ -3,8 +3,6 @@ package com.company;
 import java.util.Scanner;
 
 public class GameDataGuess {
-    private int player1;
-    private int player2;
     private static Scanner sc;
     public GameDataGuess(Scanner sc){
         this.sc=sc;
