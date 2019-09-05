@@ -3,8 +3,6 @@ package com.company;
 import java.util.Scanner;
 
 public class Kalkylation {
-
-
     public static void main(String[] args) {
         Operationerna main=new Operationerna(new Scanner(System.in));
         while(true) {
