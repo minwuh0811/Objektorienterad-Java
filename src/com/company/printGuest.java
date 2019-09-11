@@ -10,9 +10,15 @@ public printGuest(Scanner sc) {
 }
 
     public static void main(String[] args) {
-        System.out.println("Send in a String.");
+    while(true) {
+        System.out.println("Send in a String or Type Exit");
         String string=getStringInput();
+        if (string.equals("Exit")) {
+
+            break;
+        }
         printGuest.print(string);
+        }
     }
 private static void print(String string){
     System.out.println("Hi " + string);
