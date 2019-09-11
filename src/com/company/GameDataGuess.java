@@ -14,7 +14,7 @@ public class GameDataGuess {
         int guessNumber = 50;
         int i=1;
         GameDataGuess main = new GameDataGuess(new Scanner(System.in));
-        System.out.println("Please choose en number in the range of 0-100 and keep it,and I will soon know what you are thinging!!!\n");
+        System.out.println("Please choose a number in the range of 0-100 and keep it,and I will soon know what you are thinking!!!\n");
         while (true) {
             System.out.println("Is this number " + guessNumber + "? Press y to yes or Press n to no.\n");
             String string = sc.nextLine();
